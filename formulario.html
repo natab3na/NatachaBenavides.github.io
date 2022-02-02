@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinica Veterinaria Santa Margarita</title>
+
+    <link href="estilo.css" rel="stylesheet" />
+
+</head>
+<body>
+    <h1>Clinica Veterinaria Santa Margarita </h1>
+    <h2>Ficha Clínica</h2>
+    <div>
+    <img id="img-animales" src="imagenes/zoonotic-diseases-conference-1024x470.jpeg" alt="animales" />
+    </div>
+
+    <div>
+        <form action= "" method="GET">
+            <label for= "nombre">Nombre Paciente</label>
+            <input type= "text" id="nombre" name="nombre" placeholder="Ingrese el nombre de tu mascota"/></input>
+            
+    </div>
+    <div>
+        <label for= "tutor">Nombre tutor</label>
+        <input type= "text" id= "tutor" name="tutor" placeholder= "Ingresa tu Nombre"></input>
+    </div>
+
+    <div>
+        <label for= "fecha de nacimiento">Fecha de nacimiento </label>
+        <input type= "date" name="fecha" min= "1990-01-01" max="2050-12-31">
+    </div>
+    
+    <div>
+        <label for= "especie"> Especie</label>
+        <select name= "especie" id ="especie">
+            <option value="Canina">Canina</option>
+            <option value="Felina">Felina</option>
+            <option value="especie Exotica">Especie Exotica</option>
+        </select>    
+    </div>
+        
+    <div>
+        <label for="raza">Raza</label>
+        <input type= "text" id= "raza" name="raza" placeholder= "Ingresa la raza"></input>
+    </div>
+
+    <div>
+        <label for= "Género"> Género</label>
+        <select name= "genero" id ="genero">
+            <option value="Macho">Macho</option>
+            <option value="Hembra">Hembra</option>
+        </select>    
+    </div>
+
+    <div>
+        <label  for= "castrado">¿Esta Esterilizado?</label>
+        <select name= "castrado" id="castrado">
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+        </select>   
+    </div>
+
+    <div>
+        <label for="peso">Peso</label>
+        <input type="numbers" id="peso" name="peso" placeholder="Ingresa peso"></input>
+    </div>  
+    
+    <div>
+        <label for= "diagnostico">Diagnóstico:</label>
+        <input type="text" id="diagnostico" name="diagnostico">
+    </div>
+
+</body>
+</html>
