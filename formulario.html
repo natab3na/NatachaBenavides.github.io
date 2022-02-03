@@ -11,12 +11,15 @@
 </head>
 <style>
     h1 {
-        color:black;
+        color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 300%;
+        font-size: 200%;
         text-align: center;
     }
     h2{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 300%;
         text-align: center;
     }
 </style>
@@ -24,7 +27,7 @@
     <h1>Clinica Veterinaria Santa Margarita </h1>
    
     <div>
-    <img id="img-animales" src="imagenes/zoonotic-diseases-conference-1024x470.jpeg" alt="animales" />
+    <img id="img-animales" src="/Users/NataBenavides/NatachaBenavides.github.io/imagenes/logo fromulario vet.jpg" alt="animales" />
     </div>
 
     <h2>Ficha Clínica</h2>
@@ -55,39 +58,48 @@
             </select>    
         </div>
         
-        <div class=form-line>
-            <div class=form-line>    
+        <div class=form-line>   
             <label for="raza">Raza</label>
             <input type= "text" id= "raza" name="raza" placeholder= "Ingresa la raza"></input>
         </div>
 
          <div class=form-line>
-        <label for= "Género"> Género</label>
-        <select name= "genero" id ="genero">
-            <option value="Macho">Macho</option>
-            <option value="Hembra">Hembra</option>
-        </select>    
+            <label for= "Género"> Género</label>
+            <select name= "genero" id ="genero">
+                <option value="Macho">Macho</option>
+                <option value="Hembra">Hembra</option>
+            </select>    
         </div>
 
          <div class=form-line>
-        <label  for= "castrado">¿Esta Esterilizado?</label>
-        <select name= "castrado" id="castrado">
-            <option value="Si">Si</option>
-            <option value="No">No</option>
-        </select>   
+            <label  for= "castrado">¿Esta Esterilizado?</label>
+            <select name= "castrado" id="castrado">
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+            </select>   
         </div>
 
         <div class=form-line>
-        <label for="peso">Peso</label>
-        <input type="numbers" id="peso" name="peso" placeholder="Ingresa peso"></input>
+            <label for="peso">Peso</label>
+             <input type="numbers" id="peso" name="peso" placeholder="Ingresa peso"></input>
         </div>  
     
         <div class=form-line>
-        <label for= "diagnostico">Diagnóstico:</label>
-        <input type="text" id="diagnostico" name="diagnostico">
+            <label for= "diagnostico">Diagnóstico:</label>
+            <textarea name="diagnostico" rows= "10" cols="40"></textarea>
+        
         </div>
+
+        
         <div class="boton">
-        <button type="submit">Enviar</button>
+            <button type="submit">Enviar</button>
+        </div>
+
+        <div class= "boton">
+            <button type="menu">Fichas Médicas</button>
+        </div>
+    
+    
     </div>
 
 </body>

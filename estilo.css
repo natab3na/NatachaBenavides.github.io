@@ -1,14 +1,13 @@
 body {
-    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);;
+    
+background: #4B9CD3;
+
 }
 img#img-animales{
-    height: 300px;
+    height: 200px;
     width: auto;
     display: block;
     margin: auto;
-}
-h1{
-    align-items: center;
 }
 
 div.formulario{
@@ -23,10 +22,16 @@ div.formulario{
 div.form-line{
     padding: 10px;
 }
-form #nombre {
-    width: 300px;
-}
 
-form #tutor{
-    width: 300px;
+button {
+    background-color:#4B9CD3;
+    border: 2px black;
+    color:blanchedalmond;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 16px;
 }
