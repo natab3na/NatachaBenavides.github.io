@@ -22,6 +22,7 @@
 </style>
 <body>
     <h1>Clinica Veterinaria Santa Margarita </h1>
+   
     <div>
     <img id="img-animales" src="imagenes/zoonotic-diseases-conference-1024x470.jpeg" alt="animales" />
     </div>
@@ -32,20 +33,20 @@
         <form action= "" method="GET">
             <div class="form-line">
             <label for= "nombre">Nombre de Paciente</label>
-            <input type= "text" id="nombre" name="nombre" placeholder="Ingrese el nombre de tu mascota"/></input>
+            <input type= "text" id="nombre" name="nombre" placeholder="Ingrese el nombre dela mascota"/></input>
             
             </div>
-        <div>
+        <div class=form-line>
             <label for= "tutor">Nombre tutor</label>
-            <input type= "text" id= "tutor" name="tutor" placeholder= "Ingresa tu Nombre"></input>
+            <input type= "text" id= "tutor" name="tutor" placeholder= "Ingresa el nombre del propietario"></input>
         </div>
 
-        <div>
+        <div class=form-line>
             <label for= "fecha de nacimiento">Fecha de nacimiento </label>
             <input type= "date" name="fecha" min= "1990-01-01" max="2050-12-31">
         </div>
     
-        <div>
+        <div class=form-line>
             <label for= "especie"> Especie</label>
             <select name= "especie" id ="especie">
                 <option value="Canina">Canina</option>
@@ -54,12 +55,13 @@
             </select>    
         </div>
         
-        <div>
-        <label for="raza">Raza</label>
-        <input type= "text" id= "raza" name="raza" placeholder= "Ingresa la raza"></input>
+        <div class=form-line>
+            <div class=form-line>    
+            <label for="raza">Raza</label>
+            <input type= "text" id= "raza" name="raza" placeholder= "Ingresa la raza"></input>
         </div>
 
-         <div>
+         <div class=form-line>
         <label for= "Género"> Género</label>
         <select name= "genero" id ="genero">
             <option value="Macho">Macho</option>
@@ -67,7 +69,7 @@
         </select>    
         </div>
 
-         <div>
+         <div class=form-line>
         <label  for= "castrado">¿Esta Esterilizado?</label>
         <select name= "castrado" id="castrado">
             <option value="Si">Si</option>
@@ -75,12 +77,12 @@
         </select>   
         </div>
 
-        <div>
+        <div class=form-line>
         <label for="peso">Peso</label>
         <input type="numbers" id="peso" name="peso" placeholder="Ingresa peso"></input>
         </div>  
     
-        <div>
+        <div class=form-line>
         <label for= "diagnostico">Diagnóstico:</label>
         <input type="text" id="diagnostico" name="diagnostico">
         </div>
