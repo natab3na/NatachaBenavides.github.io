@@ -3,23 +3,56 @@ body {
 background: #4B9CD3;
 
 }
-img#img-animales{
+div#contenedor-logotipo{
+    width:100%;
+}
+
+div#contenedor-logotipo img{
+    width: 200px;
     height: 200px;
-    width: auto;
-    align-items: left;
+    float: left;
+    margin-right: 20px;
+}
+div#contenedor-logotipo h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    color:white;
+    float: left;
+    
+}
+div#h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+div.clearfix {
+    clear:both;
 }
 
 div.formulario{
-    width: 800px;
+    width: 900px;
     margin:auto;
     background-color: white;
     padding: 30px;
     border-radius: 15px;
     text-align: left;
-    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4B9CD3;
+    font-weight: bold
+    ;
+}
+form input {
+    width: 200px;
+    padding: 0.3mm;
+    border-color:#4B9CD3 ;
+    border: 1px solid;
 }
 div.form-line{
     padding: 10px;
+}
+div.form-line label{
+    width: 200px;
 }
 
 button {
@@ -35,6 +68,20 @@ button {
     font-size: 16px;
 }
 table, th, td {
+    align-items: center;
     border: 1px solid black;
     background-color: white;
+}
+
+img#fondo{
+    align-items: center;
+}
+div#logo-index{
+    float: center;
+    margin-right: 20px;
+}
+
+div.texto-logo{
+    color: white;
+
 }
