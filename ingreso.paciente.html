@@ -14,11 +14,12 @@
         <div id="contenedor-logotipo">
             <img id="img-animales" src="imagenes/logo fromulario vet.jpg" alt="animales" />
             <h1 id="texto-logo">Clinica Veterinaria Santa Margarita </h1>
+            <div id="h2">
+                <h2>Ficha Clínica</h2>
+            </div>
             <div class="clearfix"></div>
         </div>
-    <div id="h2">
-        <h2>Ficha Clínica</h2>
-    </div>
+    
 
     <div  class="formulario">
         <form action= "" method="GET">
@@ -74,21 +75,24 @@
     
             <div class=form-line>
                 <label for= "diagnostico">Diagnóstico:</label>
+                <br>
                 <textarea name="diagnostico" rows= "10" cols="40"></textarea>
         
             </div>
 
         
             <div class="boton">
-                <button type="submit">Enviar</button>
-            </div>
-
-            <div class= "boton">
-                <button type="menu">Fichas Médicas</button>
-            </div>
+                <button  id="boton-enviar"type="submit">Enviar</button>
+                <button  id="boton-enviar" type="reset">Limpiar</button>
+            </div>  
         </form>
-    
     </div>
 
+    <div class="botones-footer">
+        <button type="menu">Fichas Médicas</button>
+        <button type="menu">Inicio</button>
+    
+    </div>
+    
 </body>
 </html>
