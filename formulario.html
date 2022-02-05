@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinica Veterinaria Santa Margarita</title>
+
+    <link href="estilo.css" rel="stylesheet" />
+
+</head>
+<style>
+    h1 {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 200%;
+        text-align: center;
+    }
+    h2{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 300%;
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>Clinica Veterinaria Santa Margarita </h1>
+   
+    <div>
+    <img id="img-animales" src="/Users/NataBenavides/NatachaBenavides.github.io/imagenes/logo fromulario vet.jpg" alt="animales" />
+    </div>
+
+    <h2>Ficha Clínica</h2>
+
+    <div  class="formulario">
+        <form action= "" method="GET">
+            <div class="form-line">
+            <label for= "nombre">Nombre de Paciente</label>
+            <input type= "text" id="nombre" name="nombre" placeholder="Ingrese el nombre dela mascota"/></input>
+            
+            </div>
+        <div class=form-line>
+            <label for= "tutor">Nombre tutor</label>
+            <input type= "text" id= "tutor" name="tutor" placeholder= "Ingresa el nombre del propietario"></input>
+        </div>
+
+        <div class=form-line>
+            <label for= "fecha de nacimiento">Fecha de nacimiento </label>
+            <input type= "date" name="fecha" min= "1990-01-01" max="2050-12-31">
+        </div>
+    
+        <div class=form-line>
+            <label for= "especie"> Especie</label>
+            <select name= "especie" id ="especie">
+                <option value="Canina">Canina</option>
+                <option value="Felina">Felina</option>
+                <option value="especie Exotica">Especie Exotica</option>
+            </select>    
+        </div>
+        
+        <div class=form-line>   
+            <label for="raza">Raza</label>
+            <input type= "text" id= "raza" name="raza" placeholder= "Ingresa la raza"></input>
+        </div>
+
+         <div class=form-line>
+            <label for= "Género"> Género</label>
+            <select name= "genero" id ="genero">
+                <option value="Macho">Macho</option>
+                <option value="Hembra">Hembra</option>
+            </select>    
+        </div>
+
+         <div class=form-line>
+            <label  for= "castrado">¿Esta Esterilizado?</label>
+            <select name= "castrado" id="castrado">
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+            </select>   
+        </div>
+
+        <div class=form-line>
+            <label for="peso">Peso</label>
+             <input type="numbers" id="peso" name="peso" placeholder="Ingresa peso"></input>
+        </div>  
+    
+        <div class=form-line>
+            <label for= "diagnostico">Diagnóstico:</label>
+            <textarea name="diagnostico" rows= "10" cols="40"></textarea>
+        
+        </div>
+
+        
+        <div class="boton">
+            <button type="submit">Enviar</button>
+        </div>
+
+        <div class= "boton">
+            <button type="menu">Fichas Médicas</button>
+        </div>
+    
+    
+    </div>
+
+</body>
+</html>
