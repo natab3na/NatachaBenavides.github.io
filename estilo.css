@@ -4,27 +4,57 @@ background: #4B9CD3;
 
 }
 div#contenedor-logotipo{
-    width:100%;
+    width:1200px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
 }
 
 div#contenedor-logotipo img{
     width: 200px;
     height: 200px;
     float: left;
-    margin-right: 20px;
-}
-div#contenedor-logotipo h1 {
+    margin-left: 20px;
+} 
+div#contenedor-logotipo h1{
+   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3em;
     color:white;
-    float: left;
+    text-align: left;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding-top: 1.5em;
+}
+div#contenedor-logotipo h2{
+   padding-right: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color:white;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+div.linea{
+  border-top: 20px solid white;
+  border-radius: 5px;
+  height: 2px;
+  padding: 0;
+  margin: 15px auto 0 auto;
+}
+div.h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    color:white;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     
 }
 div#h2{
+    width: 500px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.3em;
     text-align:center;
+    margin: auto;
 }
 div.clearfix {
     clear:both;
@@ -48,7 +78,7 @@ div.menu-fichas{
 }
 
 div.formulario{
-    width: 900px;
+    width: 1000px;
     margin:auto;
     background-color: white;
     padding: 30px;
@@ -87,23 +117,29 @@ button {
 button#boton-enviar{
     text-align: center;
 }
-table th, td{
-    
+
+table {
+    border: 5 px solid black;
+    padding: 5px;
+    margin: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
+th, td{
     border: 5 px solid black;
     background-color: white;
     padding: 5px;
     margin: 10px;
-}
-th,td{
-    border: 5 px solid black;
     text-align: left;
     font-size: 18px;
 }
+
 thead{
-    
     background:lightskyblue;
     
 }
+
 div.ficha{
     padding: 30px;
 }
@@ -133,12 +169,17 @@ img#fondo{
     align-items: center;
 }
 
+div#foto-index{
+    text-align: left;
+    height: 100px;
+}
+
 div#logo-index{
     text-align: center;
     height: 100px;
 }
 
-div.texto-logo{
+h1.texto-logo{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
@@ -148,6 +189,14 @@ div.cabecera-index{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     height: 300px;
+}
+div.cabecera-index h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    color:white;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
 }
 div.menu-index{
     background-color:white;
@@ -173,6 +222,7 @@ a#boton-ingreso{
     margin-top: 20px;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 a#boton-fichas{
@@ -187,6 +237,7 @@ a#boton-fichas{
     margin-top: 20px;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 div.menu-ingreso{
     text-align: center;
@@ -202,6 +253,7 @@ a#boton-index{
     font-weight: bold;
     align-items: left;
     margin-top: 20px;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -215,5 +267,20 @@ a#boton-fichas-ingreso{
     align-items: left;
     margin-top: 20px;
     font-size: 16px;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+a#boton-ingreso-pacientes{
+    background-color:white;
+    color:#4B9CD3;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: left;
+    margin-top: 20px;
+    font-size: 16px;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
