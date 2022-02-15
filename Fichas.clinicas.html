@@ -5,32 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinica santa Margarita</title>
-    <link href="estilo.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />    
     
 
 </head>
 <body>
-    <div class= "cabecera">
-        <div id="contenedor-logotipo">
-            <img id="img-animales" src="imagenes/logo fromulario vet.jpg" alt="animales" />
-            <h1>Clinica Veterinaria Santa Margarita </h1>
-                <h2>Ingreso de Pacientes</h2>
-        <div class="clearfix"></div>
-        </div>
-    <div class="linea"></div>    
-    </div>
-       
-    <div class="menu-ingreso">
-        <nav>
-            <ul>
-                <li>
-                    <a id="boton-index" href="index.html">Inicio</a>
-                    <a id="boton-ingreso-pacientes" href="ingreso.paciente.html">Ingreso Pacientes</a>
-                </li>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light "style="background-color:#4B9CD3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="background-color:#4B9CD3">
+              <img src="imagenes/logo fromulario vet.png" alt="animales" width="200px" />
+            </a>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white text fs-4" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-white text fs-4" href="ingreso.paciente.html">Ingreso de Pacientes</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link text-white text fs-4" href="Fichas.clinicas.html">Fichas Clínicas</a>
+              </li>
+              
             </ul>
-        </nav>
-    
-    </div>  
+            
+          </div>
+        </div>
+      </nav>
+
+  </header>
 
     <div class="fila-1">
         <div class="columna-1">
@@ -591,6 +598,10 @@
                 </table>
             </div>
         </div> 
-    </div>     
+    </div> 
+    
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
 </body>
 </html>
