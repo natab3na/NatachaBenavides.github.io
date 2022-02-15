@@ -1,0 +1,23 @@
+{
+  "name": "natachabenavides.github.io",
+  "version": "1.0.0",
+  "description": "La veterinaria Santa Margarita necesita construir un sistema para llevar las fichas médicas de sus pacientes.Se debe llevar registro de los siguientes datos: 1.Monbre paciente 2.Tutor 3. Fecha de nacimiento 4. Especie 5. Raza 6. Género 7. Esterilizado 8. Peso 9. Diagnostico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natab3na/NatachaBenavides.github.io.git"
+  },
+  "author": "Natacha Benavides",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natab3na/NatachaBenavides.github.io/issues"
+  },
+  "homepage": "https://github.com/natab3na/NatachaBenavides.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  }
+}
