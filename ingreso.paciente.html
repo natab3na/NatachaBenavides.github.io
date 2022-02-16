@@ -3,121 +3,127 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Clinica Veterinaria Santa Margarita</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
     <link href="css/estilo.css" rel="stylesheet" />
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />    
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" /> 
+    
+       
 
 </head>
 <body>
-
+    <div class="container">  
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light "style="background-color:#4B9CD3">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#" style="background-color:#4B9CD3">
-                      <img src="imagenes/logo fromulario vet.png" alt="animales" width="200px" />
-                    </a>
-                  
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active text-white text fs-4" aria-current="page" href="index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item ">
-                        <a class="nav-link text-white text fs-4" href="ingreso.paciente.html">Ingreso de Pacientes</a>
-                      </li>
-                      
-                      <li class="nav-item">
-                        <a class="nav-link text-white text fs-4" href="Fichas.clinicas.html">Fichas Clínicas</a>
-                      </li>
-                      
-                    </ul>
-                    
-                  </div>
-                </div>
-              </nav>
+            <div class="container-header-privado">
+                <nav class="navbar navbar-expand-lg navbar-light  text-center" style="background-color:#4B9CD3">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                          <img src="imagenes/logo fromulario vet.png" alt="animales" width="200px" />
+                        </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active text-white text fs-4" aria-current="page" href="index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link text-white text fs-4" href="ingreso.paciente.html">Ingreso de pacientes</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                            <a class="nav-link text-white text fs-4" href="Fichas.clinicas.html">Fichas Clinicas</a>
+                          </li>  
+                        </ul>
+                        
+                      </div>
 
+                    </div>
+                  </nav>
+
+            </div>
+            
         </header>
-        
-    
-           
-     
-<div class="container">   
-        <div  class="formulario">
-            <form action= "" method="GET">
-                <div class="form-line">
-                     <label for= "nombre">Nombre de Paciente</label>
-                    <input type= "text" id="nombre" name="nombre" placeholder="Ingrese el nombre de la mascota"/></input>
-                
-                </div>
-                <div class=form-line>
-                    <label for= "tutor">Nombre tutor</label>
-                    <input type= "text" id= "tutor" name="tutor" placeholder= "Ingresa el nombre del propietario"></input>
-                </div>
-    
-                <div class=form-line>
-                    <label for= "fecha de nacimiento">Fecha de nacimiento </label>
-                    <input type= "date" name="fecha" min= "1990-01-01" max="2050-12-31">
-                </div>
-        
-                <div class=form-line>
-                    <label for= "especie"> Especie</label>
-                    <select name= "especie" id ="especie">
-                        <option value="Canina">Canina</option>
-                        <option value="Felina">Felina</option>
-                        <option value="especie Exotica">Especie Exotica</option>
-                    </select>    
-                </div>
+
+        <section class="container">
+            <div  class="formulario">
+                <form action= "" method="GET">
+                    <div class="form-line">
+                        <label for= "nombre">Nombre de Paciente</label>
+                        <input type= "text" id="nombre" name="nombre" placeholder="Ingrese el nombre de la mascota"/></input>
+                    
+                    </div>
+                    <div class=form-line>
+                        <label for= "tutor">Nombre tutor</label>
+                        <input type= "text" id= "tutor" name="tutor" placeholder= "Ingresa el nombre del propietario"></input>
+                    </div>
+
+                    <div class=form-line>
+                        <label for= "fecha de nacimiento">Fecha de nacimiento </label>
+                        <input type= "date" name="fecha" min= "1990-01-01" max="2050-12-31">
+                    </div>
             
-                <div class=form-line>   
-                    <label for="raza">Raza</label>
-                    <input type= "text" id= "raza" name="raza" placeholder= "Ingresa la raza"></input>
-                </div>
-    
-                <div class=form-line>
-                    <label for= "Género"> Género</label>
-                        <select name= "genero" id ="genero">
-                            <option value="Macho">Macho</option>
-                            <option value="Hembra">Hembra</option>
+                    <div class=form-line>
+                        <label for= "especie"> Especie</label>
+                        <select name= "especie" id ="especie">
+                            <option value="Canina">Canina</option>
+                            <option value="Felina">Felina</option>
+                            <option value="especie Exotica">Especie Exotica</option>
                         </select>    
-                </div>
-    
-                <div class=form-line>
-                    <label  for= "castrado">¿Esta Esterilizado?</label>
-                        <select name= "castrado" id="castrado">
-                            <option value="Si">Si</option>
-                            <option value="No">No</option>
-                        </select>   
-                </div>
-    
-                <div class=form-line>
-                    <label for="peso">Peso</label>
-                    <input type="numbers" id="peso" name="peso" placeholder="Ingresa peso"></input>
-                </div>  
+                    </div>
+                
+                    <div class=form-line>   
+                        <label for="raza">Raza</label>
+                        <input type= "text" id= "raza" name="raza" placeholder= "Ingresa la raza"></input>
+                    </div>
+
+                    <div class=form-line>
+                        <label for= "Género"> Género</label>
+                            <select name= "genero" id ="genero">
+                                <option value="Macho">Macho</option>
+                                <option value="Hembra">Hembra</option>
+                            </select>    
+                    </div>
+
+                    <div class=form-line>
+                        <label  for= "castrado">¿Esta Esterilizado?</label>
+                            <select name= "castrado" id="castrado">
+                                <option value="Si">Si</option>
+                                <option value="No">No</option>
+                            </select>   
+                    </div>
+
+                    <div class=form-line>
+                        <label for="peso">Peso</label>
+                        <input type="numbers" id="peso" name="peso" placeholder="Ingresa peso"></input>
+                    </div>  
+            
+                    <div class=form-line>
+                        <label for= "diagnostico">Diagnóstico:</label>
+                        <br>
+                        <textarea name="diagnostico" rows= "10" cols="40"></textarea>
+                
+                    </div>
+
+                
+                    <div class="boton">
+                        <button  id="boton-enviar"type="submit">Enviar</button>
+                        <button  id="boton-enviar" type="reset">Limpiar</button>
+                    </div>  
+                </form>
+            </div> 
+        </section>
         
-                <div class=form-line>
-                    <label for= "diagnostico">Diagnóstico:</label>
-                    <br>
-                    <textarea name="diagnostico" rows= "10" cols="40"></textarea>
-            
-                </div>
-    
-            
-                <div class="boton">
-                    <button  id="boton-enviar"type="submit">Enviar</button>
-                    <button  id="boton-enviar" type="reset">Limpiar</button>
-                </div>  
-            </form>
-        </div>  
+    </div>  
 
 
-</div>
 
     
 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>    
+    <script src="node_modules/jquery/dist/jquery.min.js"></script> 
+    <script src="js/interno.js"></script>   
 </body>
 </html>

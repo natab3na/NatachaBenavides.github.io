@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+       
+        <header> 
+            <div class= "container">
+                <nav class="navbar navbar-expand-lg navbar-light  text-center" style="background-color:#4B9CD3">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                          <img src="imagenes/logo fromulario vet.png" alt="animales" width="150px" />
+                        </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active text-white text fs-4" aria-current="page" href="#">Inicio</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white text fs-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Servicios
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Consulta Veterinaria</a></li>
+                              <li><a class="dropdown-item" href="#">Exámenes</a></li>                          
+                              <li><a class="dropdown-item" href="#">Peluquería</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link text-white text fs-4" href="#">Nosotros</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                            <a class="nav-link text-white text fs-4" href="#">Toma de horas</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white text fs-4" href="#">Blog</a>
+                          </li> 
+                        </ul>  
+                      </div>
+                    </div>
+                  </nav>
+            </div>           
+        </header>
+    
+        <section class="formulario">
+        
+            <div class="default-form" >
+                <h2 id="rh2">RESERVA TU HORA</h2>
+                <form action="" id="contact-form">
+                    <div class="row clearfix">
+                        <div class="col-md-6 col-sm-6 col-xs-12 ">
+                            <div class="form-group">
+                                <input type="text" name="username" value="" placeholder=" Nombre">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="phone" value="" placeholder="Teléfono">
+                            </div>
+                            <div class="single-form">
+                                <div class="select-input-wrapper">
+                                    <select class="select-input" name="category">
+                                        <option value="consulta" selected="selected">Consulta veterinaria</option>
+                                        <option value="Hotel">Exámenes</option>
+                                        <option value="peluqueria">Peluquería</option>
+                                        <option value="chip">Chip registro de mascotas</option>
+                                        <option value="cirugia">Cirugía</option>
+                                        <option value="otros">Otro servicio</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 ">
+                            <div class="form-group">
+                                <input type="text" name="email" value="" placeholder=" Email">
+                            </div>
+                            <div class="single-form">
+                                <div class="select-input-wrapper">
+                                    <select class="select-input" name="category">
+                                        <option value="gato" selected="selected">Gato </option>
+                                        <option value="perro">Perro</option>
+                                        <option value="conejo">Conejo</option>
+                                        <option value="cobayo">Cobayo</option>
+                                        <option value="ferret">Ferret</option>
+                                        <option value="roedor pequeño">Pequeño Roedor</option>
+                                        <option value="ave">Ave</option>
+                                        <option value="tortuga">Tortuga</option>
+                                        <option value="otros">Otros</option>
+                                        
+    
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input name="date" type="text" placeholder="Fecha deseada" class="datepicker">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group comments">
+                        <textarea name="message" placeholder=" Escriba su comentario aquí. Nos comunicaremos a la brevedad con usted."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-one">Reservar hora</button>
+                </form>
+            </div>
+    
+    
+         </section>
+
+    </div>
+ 
+    
+     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+     <script src="node_modules/jquery/dist/jquery.min.js"></script>  
+</body>
+</html>

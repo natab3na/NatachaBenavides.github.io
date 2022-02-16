@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Clinica santa Margarita</title>
     <link href="css/estilo.css" rel="stylesheet">
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />    
@@ -11,33 +11,39 @@
 
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light "style="background-color:#4B9CD3">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="background-color:#4B9CD3">
-              <img src="imagenes/logo fromulario vet.png" alt="animales" width="200px" />
-            </a>
-          
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-white text fs-4" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link text-white text fs-4" href="ingreso.paciente.html">Ingreso de Pacientes</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link text-white text fs-4" href="Fichas.clinicas.html">Fichas Clínicas</a>
-              </li>
-              
-            </ul>
-            
-          </div>
-        </div>
-      </nav>
+    <header>
+        <div class="container-header-privado">
+            <nav class="navbar navbar-expand-lg navbar-light  text-center" style="background-color:#4B9CD3">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                      <img src="imagenes/logo fromulario vet.png" alt="animales" width="200px" />
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active text-white text fs-4" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link text-white text fs-4" href="ingreso.paciente.html">Ingreso de pacientes</a>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link text-white text fs-4" href="Fichas.clinicas.html">Fichas Clinicas</a>
+                      </li>  
+                    </ul>
+                    
+                  </div>
 
-  </header>
+                </div>
+              </nav>
+
+        </div>
+        
+    </header>
+
 
     <div class="fila-1">
         <div class="columna-1">
@@ -603,5 +609,6 @@
     
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/interno.js"></script>
 </body>
 </html>

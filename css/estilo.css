@@ -1,64 +1,19 @@
-body {  
-background: #4B9CD3;
-
-}
 
 img#img-carrusel{
     width: 50%;
 }
-div#contenedor-logotipo{
-    width:1200px;
-    height: 200px;
-    text-align: center;
-    margin: auto;
+section#carrusel{
+    margin-top: 30px;
 }
 
-div#contenedor-logotipo img{
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin-left: 20px;
-} 
-div#contenedor-logotipo h1{
-   
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 3em;
-    color:white;
-    text-align: left;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding-top: 1.5em;
+
+
+section#testimonios {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-div#contenedor-logotipo h2{
-   padding-right: 5em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
-    color:white;
-    text-align: center;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-div.linea{
-  border-top: 20px solid white;
-  border-radius: 5px;
-  height: 2px;
-  padding: 0;
-  margin: 15px auto 0 auto;
-}
-div.h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 3em;
-    color:white;
-    text-align: center;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    
-}
-div#h2{
-    width: 500px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3em;
-    text-align:center;
-    margin: auto;
-}
+
+
 div.clearfix {
     clear:both;
 }
@@ -81,7 +36,19 @@ div.menu-fichas{
 }
 
 div.formulario{
-    width: 1000px;
+    width: auto;
+    margin:auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4B9CD3;
+    font-weight: bold
+    ;
+}
+section.formulario{
+    width: auto;
     margin:auto;
     background-color: white;
     padding: 30px;
@@ -247,70 +214,11 @@ div.menu-ingreso{
     padding-bottom: 20px;
 }
 
-a#boton-index{
-    background-color:white;
-    color:#4B9CD3;
-    border-radius: 5px;
-    padding: 15px 32px;
-    text-transform: uppercase;
-    font-weight: bold;
-    align-items: left;
-    margin-top: 20px;
-    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+section#servicios {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-a#boton-fichas-ingreso{
-    background-color:white;
-    color:#4B9CD3;
-    border-radius: 5px;
-    padding: 15px 32px;
-    text-transform: uppercase;
-    font-weight: bold;
-    align-items: left;
-    margin-top: 20px;
-    font-size: 16px;
-    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-a#boton-ingreso-pacientes{
-    background-color:white;
-    color:#4B9CD3;
-    border-radius: 5px;
-    padding: 15px 32px;
-    text-transform: uppercase;
-    font-weight: bold;
-    align-items: left;
-    margin-top: 20px;
-    font-size: 16px;
-    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-/* cuadro login*/
-.form-signin {
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-  }
-  
-  .form-signin .checkbox {
-    font-weight: 300;
-  }
-  
-  .form-signin .form-floating:focus-within {
-    z-index: 2;
-  }
-  
-  .form-signin input[type="email"] {
-    margin-bottom: -1px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  
-  .form-signin input[type="password"] {
-    margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
+
+
+
 
