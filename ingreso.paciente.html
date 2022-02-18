@@ -5,63 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Clinica Veterinaria Santa Margarita</title>
-    <link href="css/estilo.css" rel="stylesheet" />
+    <link href="css/index-admin.css" rel="stylesheet" />
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" /> 
-    
-       
-
 </head>
-<body>
+
+<body style="background-color: #4B9CD3;">
     <div class="container">  
         <header>
-            <div class="container-header-privado">
-                <nav class="navbar navbar-expand-lg navbar-light  text-center" style="background-color:#4B9CD3">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#">
-                          <img src="imagenes/logo fromulario vet.png" alt="animales" width="200px" />
-                        </a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active text-white text fs-4" aria-current="page" href="index.html">Inicio</a>
-                          </li>
-                          <li class="nav-item ">
-                            <a class="nav-link text-white text fs-4" href="ingreso.paciente.html">Ingreso de pacientes</a>
-                          </li>
-                          
-                          <li class="nav-item">
-                            <a class="nav-link text-white text fs-4" href="Fichas.clinicas.html">Fichas Clinicas</a>
-                          </li>  
-                        </ul>
+            <div class="container-fluid ">
+                <img id="logo-admin"src="imagenes/logo-vet.jpg" alt="logo" class="rounded mx-auto d-block" style="width: 300px;" >
+                    <ul id="menu-privado" class="nav justify-content-center">
+                        <li class="nav-item">
+                        <a class="nav-link active text-white fs-4" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-white fs-4" href="ingreso.paciente.html"> Ingreso de Paciente</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-white fs-4" href="Fichas.clinicas.html">Fichas Clínicas</a>
                         
-                      </div>
-
-                    </div>
-                  </nav>
-
+                    </ul>
             </div>
-            
         </header>
 
         <section class="container">
             <div  class="formulario">
-                <form action= "" method="GET">
+                <form action="ingreso.paciente.html" id="ingreso-paciente"method="GET">
                     <div class="form-line">
                         <label for= "nombre">Nombre de Paciente</label>
-                        <input type= "text" id="nombre" name="nombre" placeholder="Ingrese el nombre de la mascota"/></input>
+                        <input type= "text" id="nombre" name="nombre" placeholder="Ingrese el nombre de la mascota"/>
                     
                     </div>
                     <div class=form-line>
                         <label for= "tutor">Nombre tutor</label>
-                        <input type= "text" id= "tutor" name="tutor" placeholder= "Ingresa el nombre del propietario"></input>
+                        <input type= "text" id= "tutor" name="tutor" placeholder= "Ingresa el nombre del propietario">
                     </div>
 
                     <div class=form-line>
-                        <label for= "fecha de nacimiento">Fecha de nacimiento </label>
-                        <input type= "date" name="fecha" min= "1990-01-01" max="2050-12-31">
+                        <label for= "fecha" >Fecha de nacimiento </label>
+                        <input type= "date" id="fecha"name="fecha" min= "1990-01-01" max="2050-12-31">
                     </div>
             
                     <div class=form-line>
@@ -75,11 +57,11 @@
                 
                     <div class=form-line>   
                         <label for="raza">Raza</label>
-                        <input type= "text" id= "raza" name="raza" placeholder= "Ingresa la raza"></input>
+                        <input type= "text" id= "raza" name="raza" placeholder= "Ingresa la raza">
                     </div>
 
                     <div class=form-line>
-                        <label for= "Género"> Género</label>
+                        <label for= "genero"> Género</label>
                             <select name= "genero" id ="genero">
                                 <option value="Macho">Macho</option>
                                 <option value="Hembra">Hembra</option>
@@ -96,20 +78,20 @@
 
                     <div class=form-line>
                         <label for="peso">Peso</label>
-                        <input type="numbers" id="peso" name="peso" placeholder="Ingresa peso"></input>
+                        <input type="text" id="peso" name="peso" placeholder="Ingresa peso">
                     </div>  
             
                     <div class=form-line>
-                        <label for= "diagnostico">Diagnóstico:</label>
+                        <label for="diagnostico">Diagnóstico:</label>
                         <br>
-                        <textarea name="diagnostico" rows= "10" cols="40"></textarea>
+                        <textarea name="diagnostico" id="diagnostico" rows= "10" cols="40"></textarea>
                 
                     </div>
 
                 
                     <div class="boton">
-                        <button  id="boton-enviar"type="submit">Enviar</button>
-                        <button  id="boton-enviar" type="reset">Limpiar</button>
+                        <button  id="boton-enviar" type="submit">Enviar</button>
+                        <button  id="boton-limpiar" type="reset">Limpiar</button>
                     </div>  
                 </form>
             </div> 
@@ -117,13 +99,8 @@
         
     </div>  
 
-
-
-    
-
-
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script> 
-    <script src="js/interno.js"></script>   
+    <script src="js/ingreso.paciente.js"></script>   
 </body>
 </html>

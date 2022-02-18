@@ -1,19 +1,5 @@
-window.addEventListener('DOMContentLoaded', (eventLoad) => {
-   
-    document.querySelector("form-signin").addEventListener(
-        "submit", (eventoSubmit) => {
-        eventoSubmit.preventDefault();
-        
-
-        if(usuarioEsValido() && contrasenaEsValida() ){
-            validarUsuario();
-          }  else{
-                mostrarMensajeerror();
-          }
-    
-        return false
-
-    }) ;
-
+window.addEventListener("DOMContentLoaded", (loadEvent) => {
+    $("header").load("includes/header.html");
+    $("footer").load("includes/footer.html");
 });
 

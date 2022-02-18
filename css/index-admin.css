@@ -1,0 +1,53 @@
+img#logo-admin{
+   
+    text-align: center;
+  }
+  div#contenedor-logo{
+      text-align: center;
+  }
+
+body{
+    background-color:#4B9CD3;
+}  
+
+div#links{
+    text-align: center;
+  font-size: 20px;
+    background-color: white;
+}
+
+div.formulario{
+    width: auto;
+    margin:auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4B9CD3;
+    font-weight: bold
+    ;
+}
+section.formulario{
+    width: auto;
+    margin:auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4B9CD3;
+    font-weight: bold
+    ;
+}
+form input {
+    width: 100%;
+    padding: 1.5mm;
+    border-color:#4B9CD3 ;
+    border: 1px solid;
+}
+ul#menu-privado{
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}

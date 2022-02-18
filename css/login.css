@@ -11,10 +11,6 @@
       font-size: 3.5rem;
     }
   }
-
-  body {
-    height: 100%;
-  }
   
   body {
     display: flex;
@@ -50,3 +46,5 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
+
+  

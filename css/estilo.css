@@ -149,66 +149,6 @@ div#logo-index{
     height: 100px;
 }
 
-h1.texto-logo{
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100%;
-
-}
-div.cabecera-index{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: uppercase;
-    height: 300px;
-}
-div.cabecera-index h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 3em;
-    color:white;
-    text-align: center;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    
-}
-div.menu-index{
-    background-color:white;
-    border: 2px black;
-    color:white;
-    border-radius: 5px;
-    padding: 15px 32px;
-    text-transform: uppercase;
-    font-weight: bold;
-    align-items: center;
-    margin-top: 100px;
-    font-size: 18px;
-    text-align: center;
-}
-a#boton-ingreso{
-    background-color:#4B9CD3;
-    border: 2px black;
-    color:white;
-    border-radius: 5px;
-    padding: 15px 32px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 20px;
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-a#boton-fichas{
-    background-color:#4B9CD3;
-    border: 2px black;
-    color:white;
-    border-radius: 5px;
-    padding: 15px 32px;
-    text-transform: uppercase;
-    font-weight: bold;
-    align-items: left;
-    margin-top: 20px;
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
 div.menu-ingreso{
     text-align: center;
     padding-bottom: 20px;
@@ -219,6 +159,23 @@ section#servicios {
     margin-bottom: 30px;
 }
 
+ul#menu-privado{
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
 
+section#nosotros{
+    margin-top: 20px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+section#blog{
+    margin: 30px;
+}
 
 
