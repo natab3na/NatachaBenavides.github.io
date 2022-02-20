@@ -8,3 +8,5 @@ La veterinaria Santa Margarita necesita construir un sistema para llevar las fic
 7. Esterilizado
 8. Peso
 9. Diagnostico
+
+Clave acceso a paginas privadas usuario: demo contraseña: 1234

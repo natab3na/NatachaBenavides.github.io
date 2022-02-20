@@ -8,7 +8,7 @@ window.addEventListener( "DOMContentLoaded", (eventoLoad) => {
         const especie       = $("#especie").val(); 
         const raza          = $("#raza").val(); 
         const genero        = $("#genero").val(); 
-        const esterilizado  = $("#esterilizado").val(); 
+        const esterilizado  = $("#castrado").val(); 
         const peso          = $("#peso").val(); 
         const diagnostico   = $("#diagnostico").val(); 
 
@@ -18,7 +18,7 @@ window.addEventListener( "DOMContentLoaded", (eventoLoad) => {
         const especieValido   = validarEspecie(especie);
         const razaValido   = validarRaza(raza);
         const generoValido   = validarGenero(genero);
-        const esterilizadoValido   = validarEsterilizado(esterilizado);
+        const esterilizadoValido   = validarEsterilizado(castrado);
         const pesoValido   = validarPeso(peso);
         const diagnosticoValido   = validarDiagnostico(diagnostico);
 

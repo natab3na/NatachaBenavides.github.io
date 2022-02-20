@@ -177,5 +177,8 @@ p{
 section#blog{
     margin: 30px;
 }
+div#texto-comentarios{
+    height: auto;
+}
 
 

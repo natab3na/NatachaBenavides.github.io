@@ -54,22 +54,30 @@
             </div>                     
         </header>
     
-        <section class="formulario">
+        <section class="container">
         
-            <div class="default-form" >
+            <div class="formulario" >
                 <h2 id="rh2">RESERVA TU HORA</h2>
                 <form action="" id="contact-form">
                     <div class="row clearfix">
                         <div class="col-md-6 col-sm-6 col-xs-12 ">
-                            <div class="form-group">
-                                <input type="text" name="username" value="" placeholder=" Nombre">
+
+                            <div class="form-group p-2">
+                              <label for="nombre"class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" placeholder=" Nombre">
+                                <div id="feedback-nombre" class=""></div>
                             </div>
-                            <div class="form-group">
-                                <input type="text" name="phone" value="" placeholder="Teléfono">
+
+                            <div class="form-group p-2">
+                              <label for="telefono"class="form-label">Teléfono</label>
+                                <input type="text" class="form-control" id="telefono" placeholder="Teléfono">
+                                <div id="feedback-telefono" class=""></div>
                             </div>
-                            <div class="single-form">
+
+                            <div class="form-group p-2">
                                 <div class="select-input-wrapper">
-                                    <select class="select-input" name="category">
+                                  <label for="servicio"class="form-label">Escoge servicio</label>
+                                    <select class="form-control select-input col-md-12 p-2" id="servicio" >
                                         <option value="consulta" selected="selected">Consulta veterinaria</option>
                                         <option value="Hotel">Exámenes</option>
                                         <option value="peluqueria">Peluquería</option>
@@ -80,13 +88,18 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="col-md-6 col-sm-6 col-xs-12 ">
-                            <div class="form-group">
-                                <input type="text" name="email" value="" placeholder=" Email">
+                            
+                          <div class="form-group p-2">
+                            <label for="email"class="form-label">Email</label>
+                                <input type="text" class="form-control" id="email" placeholder=" Email">
                             </div>
+
                             <div class="single-form">
-                                <div class="select-input-wrapper">
-                                    <select class="select-input" name="category">
+                                <div class="select-input-wrapper p-2">
+                                  <label for="paciente"class="form-label">Selecciona Especie</label>
+                                    <select class="form-control select-input col-md-12 p-2" id="paciente">
                                         <option value="gato" selected="selected">Gato </option>
                                         <option value="perro">Perro</option>
                                         <option value="conejo">Conejo</option>
@@ -96,20 +109,19 @@
                                         <option value="ave">Ave</option>
                                         <option value="tortuga">Tortuga</option>
                                         <option value="otros">Otros</option>
-                                        
-    
                                     </select>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <input name="date" type="text" placeholder="Fecha deseada" class="datepicker">
+                            <div class="form-group p-2">
+                              <label for="fecha"class="form-label">Selecciona Fecha de atención</label>
+                                <input name="fecha" id="fecha"type="date" min="1990-01-01" max="2050-12-31"placeholder="Fecha deseada" class="datepicker">
                             </div>
                         </div>
                     </div>
-                    <div class="form-group comments">
-                        <textarea name="message" placeholder=" Escriba su comentario aquí. Nos comunicaremos a la brevedad con usted."></textarea>
+                    <div id="texto-comentarios" class="form-group comments p-2">
+                        <textarea name="message" style="width: 400px;" placeholder=" Escriba su comentario aquí. Nos comunicaremos a la brevedad con usted."></textarea>
                     </div>
-                    <button type="submit" class="btn btn-one">Reservar hora</button>
+                    <button type="submit" >Reservar hora</button>
                 </form>
             </div>
     
@@ -155,6 +167,7 @@
  
     
      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-     <script src="node_modules/jquery/dist/jquery.min.js"></script>  
+     <script src="node_modules/jquery/dist/jquery.min.js"></script> 
+     <script src="js/reserva-horas.js"></script> 
 </body>
 </html>
